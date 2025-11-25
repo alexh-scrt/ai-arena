@@ -1,4 +1,4 @@
-# 🏆 AI Arena: Homunculus v2 - Master Plan
+# 🏆 AI Arena v2: Homunculus ReBorn - Master Plan
 
 ## Executive Summary
 
@@ -30,12 +30,12 @@ This creates an entertainment and research platform where emergent drama, intell
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                        AI ARENA: HOMUNCULUS V2                            │
-│                     Intelligent Competition Platform                       │
+│                     Intelligent Competition Platform                      │
 └───────────────────────────────────────────────────────────────────────────┘
                                     │
                     ┌───────────────┴───────────────┐
                     │                               │
-            ┌───────▼────────┐            ┌────────▼────────┐
+            ┌───────▼────────┐            ┌─────────▼───────┐
             │  ENTRY LAYER   │            │  MONITORING &   │
             │                │            │   TELEMETRY     │
             │ • CLI Client   │            │                 │
@@ -46,7 +46,7 @@ This creates an entertainment and research platform where emergent drama, intell
                     │
         ┌───────────┴──────────────────────────────┐
         │                                          │
-┌───────▼────────┐                      ┌─────────▼──────────┐
+┌───────▼────────┐                      ┌──────────▼─────────┐
 │  TOURNAMENT    │                      │   CONTENT          │
 │  MANAGEMENT    │◄────────────────────►│   GENERATION       │
 │                │                      │                    │
@@ -63,21 +63,21 @@ This creates an entertainment and research platform where emergent drama, intell
 │                                                                        │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐               │
 │  │ Coordinator  │  │   Narrator   │  │ Progression  │               │
-│  │             │  │             │  │  Analyzer    │               │
-│  │ • Phase Mgmt│  │ • Commentary│  │             │               │
-│  │ • Turn Logic│  │ • Transitions│  │ • Orbiting  │               │
-│  │ • Timing    │  │ • Meta-story │  │ • Quality   │               │
+│  │              │  │              │  │  Analyzer    │               │
+│  │ • Phase Mgmt │  │ • Commentary │  │              │               │
+│  │ • Turn Logic │  │ • Transitions│  │ • Orbiting   │               │
+│  │ • Timing     │  │ • Meta-story │  │ • Quality    │               │
 │  └──────────────┘  └──────────────┘  └──────────────┘               │
 │                                                                        │
 │  ┌──────────────────────────────────────────────────────────────┐    │
-│  │              COMPETITION TYPE REGISTRY                        │    │
+│  │              COMPETITION TYPE REGISTRY                       │    │
 │  │  [Debate] [Story] [Philosophy] [Creative] [QuickFire] [...]  │    │
 │  └──────────────────────────────────────────────────────────────┘    │
 └────────────────────────────────────────────────┬───────────────────────┘
                                                  │
                         ┌────────────────────────┴─────────────────────┐
                         │                                              │
-            ┌───────────▼──────────┐                      ┌───────────▼──────────┐
+            ┌───────────▼──────────┐                      ┌────────────▼─────────┐
             │   GAME THEORY &      │                      │    JUDGING &         │
             │   STRATEGY ENGINE    │                      │   SCORING SYSTEM     │
             │                      │                      │                      │
@@ -93,27 +93,27 @@ This creates an entertainment and research platform where emergent drama, intell
                         │         CHARACTER AGENT LAYER            │
                         │      (Homunculus Multi-Agent Core)       │
                         │                                          │
-                        │  ┌────────────────────────────────────┐ │
-                        │  │   Character State Manager          │ │
-                        │  │                                    │ │
-                        │  │ • Personality (Big Five + traits) │ │
-                        │  │ • Neurochemistry (6 hormones)     │ │
-                        │  │ • Mood & Energy                   │ │
-                        │  │ • Goals & Motivations             │ │
-                        │  │ • Competition Stats               │ │
-                        │  │ • Relationship Graph              │ │
-                        │  └────────────────────────────────────┘ │
+                        │  ┌────────────────────────────────────┐  │
+                        │  │   Character State Manager          │  │
+                        │  │                                    │  │
+                        │  │ • Personality (Big Five + traits)  │  │
+                        │  │ • Neurochemistry (6 hormones)      │  │
+                        │  │ • Mood & Energy                    │  │
+                        │  │ • Goals & Motivations              │  │
+                        │  │ • Competition Stats                │  │
+                        │  │ • Relationship Graph               │  │
+                        │  └────────────────────────────────────┘  │
                         │                  │                       │
-                        │  ┌───────────────▼────────────────────┐ │
-                        │  │  Agent Orchestrator (8 agents)    │ │
-                        │  │                                   │ │
-                        │  │  [P] [M] [N] [G] [C] [Mem] [D] [S]│ │
-                        │  │   │   │   │   │   │    │    │   │ │ │
-                        │  └───┴───┴───┴───┴───┴────┴────┴───┴─┘ │
+                        │  ┌───────────────▼────────────────────┐  │
+                        │  │  Agent Orchestrator (8 agents)     │ │
+                        │  │                                    │ │
+                        │  │  [P] [M] [N] [G] [C] [Mem] [D] [S] │ │
+                        │  │   │   │   │   │   │    │    │   │  │ │
+                        │  └───┴───┴───┴───┴───┴────┴────┴───┴──┘ │
                         │      Personality, Mood, Neurochemical   │
                         │      Goals, Communication, Memory       │
                         │      Development, Strategy              │
-                        │                  │                       │
+                        │                  │                      │
                         │  ┌───────────────▼────────────────────┐ │
                         │  │   Cognitive Module + Synthesis     │ │
                         │  │                                    │ │
@@ -122,7 +122,7 @@ This creates an entertainment and research platform where emergent drama, intell
                         │  │ • RAG Style Transfer               │ │
                         │  │ • Context Integration              │ │
                         │  └────────────────────────────────────┘ │
-                        │                  │                       │
+                        │                  │                      │
                         │  ┌───────────────▼────────────────────┐ │
                         │  │   Response Generator               │ │
                         │  │                                    │ │
@@ -131,7 +131,7 @@ This creates an entertainment and research platform where emergent drama, intell
                         │  │ • Strategy Execution               │ │
                         │  │ • Emotional Expression             │ │
                         │  └────────────────────────────────────┘ │
-                        │                  │                       │
+                        │                  │                      │
                         │  ┌───────────────▼────────────────────┐ │
                         │  │   State Updater                    │ │
                         │  │                                    │ │
@@ -140,7 +140,7 @@ This creates an entertainment and research platform where emergent drama, intell
                         │  │ • Mood Transitions                 │ │
                         │  │ • Relationship Updates             │ │
                         │  └────────────────────────────────────┘ │
-                        └──────────────────┬───────────────────────┘
+                        └──────────────────┬──────────────────────┘
                                            │
                         ┌──────────────────▼───────────────────────┐
                         │   KNOWLEDGE & MEMORY INFRASTRUCTURE      │

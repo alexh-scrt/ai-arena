@@ -4,6 +4,8 @@
 
 This plan provides a strategic roadmap for implementing AI Arena by leveraging proven components from **Homunculus** and **AI-Talks**, while building new competitive mechanics. Each phase includes specific references to source code that should be studied and adapted.
 
+Homunculus: ~/homunculus
+AI-Talks: ~/talks
 ---
 
 ## 📋 Implementation Philosophy

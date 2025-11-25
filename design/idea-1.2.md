@@ -588,7 +588,7 @@ development:
 ### Directory Structure
 
 ```
-homunculus_v2/
+ai-arena-v2/
 ├── arena/
 │   ├── __init__.py
 │   │
@@ -900,7 +900,7 @@ utilities:
 **Goal**: Establish codebase foundation and verify both source repos work.
 
 **Tasks**:
-1. Create `homunculus_v2` repository structure
+1. Create `ai-arena-v2` repository structure
 2. Clone both source repos for reference
 3. Audit Homunculus:
    - ✅ Character loading system

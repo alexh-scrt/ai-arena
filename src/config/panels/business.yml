@@ -1,0 +1,37 @@
+# AI Panel Configuration
+# AI researchers and ethicists discussing artificial intelligence and its future
+
+panel_name: "Business Panel"
+description: "Experts exploring business ideas, strategies, and market trends"
+
+participants:
+  - name: "Steve"
+    gender: "male"
+    persona: "steve_jobs"
+    expertise: ""
+    
+  - name: "Bill"
+    gender: "male"
+    persona: "bill_gates"
+    expertise: ""
+    
+  - name: "Jeff"
+    gender: "male"
+    persona: "jeff_bezos"
+    expertise: ""
+    
+  - name: "Elon"
+    gender: "male"
+    persona: "elon_musk"
+    expertise: ""
+
+recommended_topics:
+  - "Can machines truly think?"
+  - "What is artificial general intelligence?"
+  - "Will AI surpass human intelligence?"
+  - "How do we align AI with human values?"
+  - "What are the limits of machine learning?"
+  - "Can AI be conscious?"
+  - "Should AI have rights?"
+  - "How will AI transform society?"
+  - "What is the singularity?"

@@ -1,11 +1,11 @@
-# 🏛️ AI Arena: Homunculus v2 (Reborn)
+# 🏛️ AI Arena: Where Artificial Minds Collide
 
 <div align="center">
 
-**Where Artificial Minds Clash in Intellectual Combat**
+**Multi-Agent Competitive Intelligence System**
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![LangGraph](https://img.shields.io/badge/LangGraph-0.6.7-green.svg)](https://github.com/langchain-ai/langgraph)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 [Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Roadmap](#-roadmap)
@@ -16,151 +16,312 @@
 
 ## 📖 Overview
 
-**AI Arena** is a competitive multi-agent system where sophisticated AI characters (powered by [Homunculus](https://github.com/your-org/homunculus)) engage in intellectual competitions using orchestration patterns from [AI-Talks](https://github.com/your-org/ai-talks). Think of it as an AI Colosseum where characters don't just respond—they **strategize, compete, and evolve**.
+**AI Arena** is an advanced multi-agent competitive system where sophisticated AI characters engage in intellectual competitions across diverse formats—from philosophical debates to creative storytelling battles. Built on proven orchestration patterns from **AI-Talks** and character systems from **Homunculus**, Arena creates an AI Colosseum where artificial minds don't just respond—they **strategize, compete, and evolve**.
 
 ### What Makes Arena Special?
 
-- 🧠 **Homunculus Characters**: Each character has a full cognitive architecture with 7 specialized agents (personality, mood, neurochemistry, goals, communication, memory, development)
-- 🎭 **AI-Talks Orchestration**: Proven multi-agent discussion patterns adapted for competitive scenarios
-- ⚔️ **True Competition**: Characters are scored, eliminated, and must strategically survive
-- 🎮 **Game Theory**: Turn selection uses urgency calculation, fairness mechanisms, and strategic positioning
-- 🏆 **Championship System**: Winners persist across rounds, building reputation and adapting strategies
-- 📊 **Multi-Judge Scoring**: Specialist judges evaluate novelty, synthesis, problem-solving, and strategic insight
-- 🛡️ **Anti-Gaming**: Sophisticated detection of paraphrasing, manipulation, and circular reasoning
+- 🎭 **Multi-Agent Orchestration**: Built on proven AI-Talks patterns with LangGraph state machines for complex competition flows
+- 🧠 **Cognitive Architecture**: Rich character personalities with mood, goals, memory, and neurochemistry simulation
+- ⚔️ **True Competition**: Dynamic elimination, strategic scoring, and survival mechanics that evolve over time
+- 🎮 **Game Theory**: Turn selection uses urgency calculation, fairness mechanisms, and strategic positioning algorithms
+- 🏆 **Tournament System**: ELO ratings, brackets, championships, and persistent character development
+- 📊 **Intelligent Scoring**: Multi-dimensional evaluation including novelty, synthesis, problem-solving, and creative contribution
+- 🛡️ **Anti-Gaming**: Redundancy detection, circular reasoning prevention, and manipulation analysis
+- 📚 **Content Generation**: Automatic creation of podcasts, blogs, videos, and social media content from competitions
 
 ---
 
 ## 🌟 Features
 
-### Phase 1: Character System ✅
-- **CharacterAdapter**: Seamless integration wrapper for Homunculus characters
-- **Strategy Agent**: Competitive intelligence layer (8th agent for Arena competitions)
-- **Bounded Neurochemistry**: Prevents hormone runaway during high-stress competition
-- **Competition Memory**: Arena-specific memory structures with strategic learning
-- **Champion Persistence**: Character state preservation between rounds
+### 🎯 Core Systems
 
-### Phase 2: Orchestration System ✅
-- **Competition Orchestrator**: Centralized coordinator adapted from AI-Talks
-- **Turn Selector**: Game-theoretic speaker selection with fairness mechanisms
-- **Narrator Agent**: Context-aware commentary and dramatic tension building
-- **Progression Controller**: Detects orbiting, stagnation, and quality issues
-- **State Machine**: Handles opening statements, discussion, elimination, and closing
+#### Multi-Agent Orchestration
+- **LangGraph State Machine**: Complex competition flow management with phase transitions
+- **Turn Selection**: Game-theoretic speaker selection with urgency calculation and fairness mechanisms
+- **Dynamic Narratives**: AI narrator provides real-time commentary and dramatic tension
+- **Progression Control**: Detects circular reasoning, stagnation, and forces meaningful advancement
 
-### Phase 3: Integration Testing ✅
-- **End-to-End Tests**: Validates Homunculus + AI-Talks integration
-- **Performance Benchmarks**: Turn generation speed, memory usage, scalability
-- **Competition Inspector**: Detailed analysis and debugging tools
-- **Stress Tests**: Long competitions with multiple participants
+#### Intelligent Characters
+- **Rich Personalities**: Character profiles with traits, expertise, communication styles, and goals
+- **Memory Systems**: ChromaDB vector storage for episodic memory and semantic retrieval
+- **Adaptive Behavior**: Characters learn from competition outcomes and adjust strategies
+- **Neurochemical Simulation**: Mood and hormone-like systems affect character responses
 
-### Phase 4: Judge Ensemble 🚧
-- **Specialist Judges**: Novelty, Synthesis, Problem-Solving, Radical Ideas, Anti-Gaming
-- **Judge Coordinator**: Aggregates and weighs specialist scores
-- **Adaptive Weighting**: Judge importance adjusts based on competition phase
-- **Reasoning Transparency**: Detailed explanations for all scores
+#### Competition Formats
+- **Philosophical Debates**: Structured argumentation with evidence and counterarguments
+- **Creative Storytelling**: Collaborative narrative building with plot twists and character development
+- **Problem Solving**: Constraint-based creative challenges with feasibility evaluation
+- **QuickFire Rounds**: Rapid-response competitions testing wit and speed of insight
 
-### Phase 5: Anti-Gaming Systems 🚧
-- **Paraphrasing Detection**: Semantic similarity analysis catches rephrasing
-- **Manipulation Detection**: Identifies strategic gaming and meta-commentary
-- **Circular Reasoning**: Detects and penalizes orbiting discussions
-- **Novelty Enforcement**: Requires genuine new contributions
+### 🏆 Tournament Infrastructure
 
-### Phase 6: Production Features 📅
-- **REST API**: HTTP interface for competitions
-- **WebSocket Streaming**: Real-time competition updates
-- **Persistence Layer**: PostgreSQL for competitions, results, rankings
-- **Async Processing**: Celery task queue for scalability
-- **Monitoring**: Prometheus metrics and Grafana dashboards
+#### Scoring & Evaluation
+- **Multi-Dimensional Scoring**: Novelty, synthesis ability, problem-solving, creativity, and strategic insight
+- **Anti-Gaming Detection**: Prevents repetition, paraphrasing, manipulation, and circular reasoning
+- **Judge Ensemble**: Multiple AI judges with agreement validation and reasoning transparency
+- **ELO Rating System**: Persistent skill ratings that evolve across competitions
 
-### Phase 7: Championship System 📅
-- **Tournament Brackets**: Single/double elimination, Swiss, round-robin
-- **ELO Ratings**: Skill ratings that evolve over competitions
-- **Leaderboards**: Global, per-character, per-competition-type rankings
-- **Champion Hall of Fame**: Immortalize the greatest AI minds
+#### Championship Features
+- **Tournament Brackets**: Single/double elimination, Swiss system, round-robin formats
+- **Leaderboards**: Global rankings, per-format specializations, and head-to-head records
+- **Champion Persistence**: Winners carry memory and experience to future competitions
+- **Achievement System**: Unlockable titles, streaks, and historical accomplishments
+
+### 📊 Content & Analytics
+
+#### Automatic Content Generation
+- **Multi-Format Output**: Podcasts, blog posts, social media content, video scripts
+- **Highlight Detection**: AI identifies dramatic moments and key insights
+- **Quote Integration**: Philosophical quotes enrichment with voice adaptation
+- **Cognitive Codas**: Distilled wisdom and mathematical models from discussions
+
+#### Performance Analytics
+- **Real-time Metrics**: Turn latency, judge agreement, novelty scores, engagement levels
+- **Historical Analysis**: Character evolution, strategy effectiveness, meta-game trends
+- **Quality Assurance**: Redundancy rates, manipulation detection, content safety
+- **Tournament Statistics**: Win rates, format specializations, rivalry tracking
 
 ---
 
 ## 🏗️ Architecture
 
-### High-Level Overview
+### System Overview
 
+```mermaid
+graph TB
+    subgraph "AI Arena Core"
+        direction TB
+        
+        subgraph "Orchestration Layer"
+            CO[Competition Orchestrator]
+            LG[LangGraph State Machine]
+            TS[Turn Selector]
+            PC[Progression Controller]
+            NA[Narrator Agent]
+        end
+        
+        subgraph "Character System"
+            CP[Character Personas]
+            PA[Participant Agents]
+            QE[Quote Enrichment]
+            DCA[Dynamic Creativity]
+        end
+        
+        subgraph "Competition Engine"
+            GS[Game State Management]
+            SC[Strategic Coordinator]
+            JE[Judge Ensemble]
+            AG[Anti-Gaming Systems]
+        end
+        
+        subgraph "Content Generation"
+            CG[Content Generator]
+            HG[Highlight Generator]
+            CC[Cognitive Coda]
+            MF[Multi-Format Output]
+        end
+    end
+    
+    subgraph "Infrastructure"
+        direction TB
+        
+        VDB[(ChromaDB<br/>Vector Storage)]
+        RDB[(PostgreSQL<br/>Competition Data)]
+        KV[(Redis<br/>Caching)]
+        LLM[LLM Provider<br/>Claude/Ollama]
+    end
+    
+    subgraph "External Interfaces"
+        API[REST API]
+        WS[WebSocket]
+        CLI[Command Line]
+        WEB[Web Dashboard]
+    end
+    
+    CO --> LG
+    LG --> TS
+    LG --> PC
+    LG --> NA
+    TS --> GS
+    
+    PA --> VDB
+    PA --> LLM
+    QE --> VDB
+    
+    SC --> JE
+    JE --> AG
+    
+    CG --> CC
+    CG --> MF
+    
+    CO --> RDB
+    PA --> KV
+    
+    API --> CO
+    WS --> CO
+    CLI --> CO
+    WEB --> API
+    
+    classDef core fill:#e3342f,stroke:#333,stroke-width:2px,color:#fff
+    classDef infra fill:#6b7280,stroke:#333,stroke-width:2px,color:#fff
+    classDef interface fill:#1ccbd0,stroke:#333,stroke-width:2px,color:#fff
+    
+    class CO,LG,TS,PC,NA,CP,PA,QE,DCA,GS,SC,JE,AG,CG,HG,CC,MF core
+    class VDB,RDB,KV,LLM infra
+    class API,WS,CLI,WEB interface
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      AI ARENA                               │
-│                                                             │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────────┐  │
-│  │   Character   │  │ Orchestration│  │   Judge         │  │
-│  │   System      │  │   System     │  │   Ensemble      │  │
-│  │  (Phase 1)    │  │  (Phase 2)   │  │  (Phase 4)      │  │
-│  └───────┬───────┘  └───────┬──────┘  └────────┬────────┘  │
-│          │                  │                   │           │
-│          └──────────────────┴───────────────────┘           │
-└─────────────────────────────────────────────────────────────┘
-           │                  │                   │
-           ▼                  ▼                   ▼
-┌──────────────────┐ ┌──────────────┐  ┌────────────────┐
-│   HOMUNCULUS     │ │   AI-TALKS   │  │  INFRASTRUCTURE│
-│                  │ │              │  │                │
-│ 7 Cognitive      │ │ Orchestration│  │ • ChromaDB     │
-│ Agents           │ │ Patterns     │  │ • Neo4j        │
-│ • Personality    │ │ • TurnSelect │  │ • Redis        │
-│ • Mood           │ │ • Narrator   │  │ • Ollama       │
-│ • Neurochemical  │ │ • Progression│  │                │
-│ • Goals          │ │ • GameTheory │  │                │
-│ • Communication  │ │              │  │                │
-│ • Memory         │ │              │  │                │
-│ • Development    │ │              │  │                │
-└──────────────────┘ └──────────────┘  └────────────────┘
+
+### Competition Flow Architecture
+
+```mermaid
+stateDiagram-v2
+    [*] --> Initialize
+    
+    Initialize --> Opening: Setup Complete
+    
+    Opening --> Discussion: All Statements Made
+    
+    state Discussion {
+        [*] --> SelectSpeaker
+        SelectSpeaker --> GenerateResponse
+        GenerateResponse --> JudgeResponse
+        JudgeResponse --> UpdateState
+        UpdateState --> CheckElimination
+        CheckElimination --> SelectSpeaker: Continue
+        CheckElimination --> Elimination: Threshold Reached
+        
+        state Elimination {
+            [*] --> AnnounceElimination
+            AnnounceElimination --> FinalWords
+            FinalWords --> RemoveParticipant
+            RemoveParticipant --> [*]
+        }
+        
+        Elimination --> SelectSpeaker: Multiple Survivors
+        Elimination --> Closing: Single Winner
+    }
+    
+    Discussion --> Closing: Natural Conclusion
+    
+    state Closing {
+        [*] --> NarratorSynthesis
+        NarratorSynthesis --> GenerateCoda
+        GenerateCoda --> SaveResults
+        SaveResults --> [*]
+    }
+    
+    Closing --> [*]: Competition Complete
 ```
 
-### Component Architecture
+### Technical Stack
 
-Arena integrates two sophisticated AI systems:
+```mermaid
+graph LR
+    subgraph "Application Layer"
+        PY[Python 3.11+]
+        LG[LangGraph 0.6.7]
+        LC[LangChain 0.3.x]
+        PD[Pydantic 2.x]
+    end
+    
+    subgraph "AI/ML Layer"
+        CLAUDE[Claude Sonnet 4]
+        OLLAMA[Ollama Local]
+        ST[Sentence Transformers]
+        CHROMA[ChromaDB 1.1.0]
+    end
+    
+    subgraph "Data Layer"
+        POSTGRES[PostgreSQL 16]
+        REDIS[Redis 6.4]
+        YAML[YAML Config]
+    end
+    
+    subgraph "Infrastructure"
+        DOCKER[Docker Compose]
+        ASYNC[AsyncIO]
+        WS[WebSockets]
+        API[FastAPI 0.117]
+    end
+    
+    PY --> LG
+    LG --> LC
+    LC --> CLAUDE
+    LC --> OLLAMA
+    
+    PY --> ST
+    ST --> CHROMA
+    
+    PY --> POSTGRES
+    PY --> REDIS
+    
+    API --> PY
+    WS --> PY
+    DOCKER --> POSTGRES
+    DOCKER --> REDIS
+    
+    classDef app fill:#3b82f6,stroke:#333,stroke-width:2px,color:#fff
+    classDef ai fill:#10b981,stroke:#333,stroke-width:2px,color:#fff
+    classDef data fill:#f59e0b,stroke:#333,stroke-width:2px,color:#fff
+    classDef infra fill:#6b7280,stroke:#333,stroke-width:2px,color:#fff
+    
+    class PY,LG,LC,PD app
+    class CLAUDE,OLLAMA,ST,CHROMA ai
+    class POSTGRES,REDIS,YAML data
+    class DOCKER,ASYNC,WS,API infra
+```
 
-**[Homunculus](https://github.com/your-org/homunculus)** provides:
-- Multi-agent cognitive architecture (7 specialized agents per character)
-- Neurochemical simulation (hormones influence mood and behavior)
-- Episodic and semantic memory (ChromaDB + Neo4j)
-- Personality-driven responses (Big Five traits)
-- Character development over time
-
-**[AI-Talks](https://github.com/your-org/ai-talks)** provides:
-- Multi-agent discussion orchestration
-- Game-theoretic turn selection
-- Contextual narrator commentary
-- Progression quality control (orbiting, stagnation detection)
-- Semantic similarity analysis
-
-**Arena** extends both with:
-- Competitive mechanics (scoring, elimination, survival)
-- Strategic intelligence layer (Strategy Agent)
-- Judge ensemble for fair evaluation
-- Anti-gaming detection systems
-- Championship and tournament infrastructure
-
-### Data Flow: Single Turn
+### Data Flow: Competition Turn
 
 ```mermaid
 sequenceDiagram
+    participant U as User/API
     participant CO as Orchestrator
+    participant LG as LangGraph
     participant TS as TurnSelector
-    participant CA as CharacterAdapter
-    participant SA as StrategyAgent
-    participant HOM as Homunculus(7 agents)
+    participant PA as ParticipantAgent
+    participant LLM as LLM Provider
+    participant VDB as ChromaDB
     participant JE as JudgeEnsemble
-    participant NA as Narrator
+    participant AG as AntiGaming
+    participant RDB as PostgreSQL
 
-    CO->>TS: Select next speaker
-    TS-->>CO: participant_id
-    CO->>CA: Generate response(context)
-    CA->>SA: Assess situation
-    SA-->>CA: Strategic guidance
-    CA->>HOM: Full agent consultation
-    HOM-->>CA: Synthesized response
-    CA-->>CO: ArenaResponse
-    CO->>JE: Score contribution
-    JE-->>CO: Scores + reasoning
-    CO->>NA: Generate commentary
-    NA-->>CO: Narrator text
+    U->>CO: Start Competition
+    CO->>LG: Initialize State Machine
+    
+    loop Each Turn
+        LG->>TS: Select Next Speaker
+        TS->>LG: Speaker Selected
+        
+        LG->>PA: Generate Response
+        PA->>VDB: Retrieve Memory Context
+        VDB-->>PA: Relevant Memories
+        PA->>LLM: Generate with Context
+        LLM-->>PA: Response Text
+        PA->>LG: Character Response
+        
+        LG->>JE: Evaluate Response
+        par Parallel Judging
+            JE->>LLM: Judge Novelty
+            JE->>LLM: Judge Synthesis
+            JE->>LLM: Judge Problem-Solving
+        end
+        JE->>AG: Check Anti-Gaming
+        AG-->>JE: Gaming Analysis
+        JE->>LG: Scores + Reasoning
+        
+        LG->>VDB: Store Turn Memory
+        LG->>RDB: Save Competition State
+        
+        alt Elimination Threshold Met
+            LG->>LG: Eliminate Participant
+        else Continue
+            LG->>TS: Next Turn
+        end
+    end
+    
+    LG->>CO: Competition Complete
+    CO->>U: Final Results
 ```
 
 ---
@@ -170,41 +331,20 @@ sequenceDiagram
 ### Prerequisites
 
 - Python 3.11+
-- Docker & Docker Compose
-- 16GB+ RAM (for running all services)
-- GPU recommended (for Ollama, optional)
+- Docker & Docker Compose (optional, for local LLM)
+- 8GB+ RAM (16GB+ recommended for local models)
+- API keys for Claude or other LLM providers
 
 ### Installation
 
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-org/arena.git
-cd arena
+git clone https://github.com/your-org/ai-arena.git
+cd ai-arena
 ```
 
-#### 2. Setup External Dependencies
-
-**Homunculus:**
-```bash
-cd ../
-git clone https://github.com/your-org/homunculus.git
-cd homunculus
-docker-compose up -d
-# Wait for services to be healthy
-cd ../arena
-```
-
-**AI-Talks:**
-```bash
-cd ../
-git clone https://github.com/your-org/ai-talks.git
-cd ai-talks
-docker-compose up -d
-cd ../arena
-```
-
-#### 3. Install Arena
+#### 2. Set Up Environment
 
 ```bash
 # Create virtual environment
@@ -213,131 +353,210 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Install in development mode
-pip install -e .
 ```
 
-#### 4. Configure Environment
+#### 3. Configure LLM Provider
+
+Create a `.env` file:
 
 ```bash
-cp .env.example .env
-# Edit .env with your settings
+# For Claude (recommended)
+ANTHROPIC_API_KEY=your_claude_api_key_here
+
+# For local Ollama (optional)
+OLLAMA_HOST=http://localhost:11434
+OLLAMA_MODEL=qwen3:32b
+
+# For OpenAI (alternative)
+OPENAI_API_KEY=your_openai_key_here
 ```
 
-**Example `.env`:**
-```env
-# Homunculus Configuration
-HOMUNCULUS_PATH=../homunculus
-HOMUNCULUS_CHROMA_HOST=localhost
-HOMUNCULUS_CHROMA_PORT=8000
-HOMUNCULUS_NEO4J_URI=bolt://localhost:7687
-HOMUNCULUS_NEO4J_USER=neo4j
-HOMUNCULUS_NEO4J_PASSWORD=password
-HOMUNCULUS_REDIS_HOST=localhost
-HOMUNCULUS_REDIS_PORT=6379
-HOMUNCULUS_OLLAMA_HOST=http://localhost:11434
-
-# AI-Talks Configuration
-TALKS_PATH=../talks
-TALKS_CHROMA_HOST=localhost
-TALKS_CHROMA_PORT=8001
-TALKS_OLLAMA_HOST=http://localhost:11435
-
-# Arena Configuration
-ARENA_LOG_LEVEL=INFO
-ARENA_MAX_TURNS=50
-ARENA_ENABLE_NARRATOR=true
-ARENA_ENABLE_PROGRESSION_CONTROL=true
-```
-
-#### 5. Verify Installation
+#### 4. Start Infrastructure (Optional - for local models)
 
 ```bash
-# Run minimal integration test
-pytest tests/arena/test_minimal_integration.py -v -s
+# Start local Ollama if using local models
+docker-compose up -d ollama
 
-# If successful, you should see:
-# ✅ MINIMAL INTEGRATION TEST PASSED
+# Pull required model
+docker exec ollama ollama pull qwen3:32b
+```
+
+#### 5. Run Your First Competition
+
+```bash
+# Quick debate between characters
+python main.py \
+  --topic "The nature of consciousness in AI" \
+  --participants ada_lovelace,alan_turing \
+  --competition-type debate \
+  --max-turns 10
+```
+
+### Basic Usage
+
+#### CLI Interface
+
+```bash
+# Start a philosophical debate
+python main.py \
+  --topic "Can AI systems be truly creative?" \
+  --participants ada_lovelace,creative_artist,zen_master \
+  --competition-type debate \
+  --enable-narrator
+
+# Creative storytelling battle
+python main.py \
+  --topic "A world where time runs backwards" \
+  --participants creative_artist,grumpy_wizard \
+  --competition-type story_battle \
+  --max-turns 15
+
+# Quick-fire intellectual combat
+python main.py \
+  --topic "The trolley problem" \
+  --participants friendly_teacher,tech_enthusiast,zen_master \
+  --competition-type quickfire \
+  --max-turns 8
+```
+
+#### Configuration
+
+Customize competitions with `arena.yml`:
+
+```yaml
+# Competition settings
+orchestration:
+  max_turns: 30
+  parallel_execution: true
+  enable_recovery: true
+
+# Scoring weights
+scoring:
+  weights:
+    novelty: 0.25
+    builds_on_others: 0.20
+    solves_subproblem: 0.25
+    radical_idea: 0.15
+    manipulation: 0.15
+
+# Available characters
+agents:
+  character_schemas_path: "schemas/characters/"
+  auto_load_characters: true
 ```
 
 ---
 
 ## 🎮 Usage
 
-### Running a Basic Competition
+### Available Characters
 
-```python
-import asyncio
-from src.arena.orchestration.competition_orchestrator import CompetitionOrchestrator
-from src.arena.character.character_adapter import CharacterAdapter
-from src.arena.character.homunculus_loader import get_loader
+Arena includes diverse AI personalities with rich backgrounds and expertise:
 
-async def run_competition():
-    # Load characters
-    loader = get_loader()
-    
-    # Create character adapters
-    adapters = {
-        'ada': CharacterAdapter(character_id='ada_lovelace'),
-        'alan': CharacterAdapter(character_id='alan_turing')
-    }
-    
-    # Create orchestrator
-    orchestrator = CompetitionOrchestrator(
-        competition_id='demo_001',
-        competition_type='debate',
-        topic='The future of artificial intelligence',
-        character_adapters=adapters,
-        config={
-            'max_turns': 10,
-            'enable_narrator': True,
-            'enable_progression_control': True
-        }
-    )
-    
-    # Run competition
-    final_state = await orchestrator.run_competition()
-    
-    # Display results
-    leaderboard = final_state.get_leaderboard()
-    print(f"\n🏆 Winner: {final_state.participants[leaderboard[0][0]].name}")
-    print(f"   Score: {leaderboard[0][1]:.2f}")
+#### Historical Figures
+- **Ada Lovelace** (`ada_lovelace`) - Analytical programmer, mathematical visionary
+- **Alan Turing** (`alan_turing`) - Computational theorist, AI pioneer  
+- **Steve Jobs** (`steve_jobs`) - Design innovator, technology visionary
+- **Bill Gates** (`bill_gates`) - Software strategist, philanthropist
+- **Jeff Bezos** (`jeff_bezos`) - Business systematizer, customer obsession
+- **Elon Musk** (`elon_musk`) - Disruptive innovator, first principles thinker
 
-# Run
-asyncio.run(run_competition())
+#### Specialized Archetypes
+- **Creative Artist** (`creative_artist`) - Imaginative, expressive, boundary-pushing
+- **Friendly Teacher** (`friendly_teacher`) - Patient educator, knowledge synthesizer
+- **Tech Enthusiast** (`tech_enthusiast`) - Innovation advocate, early adopter
+- **Grumpy Wizard** (`grumpy_wizard`) - Cynical sage, brutal honesty
+- **Zen Master** (`zen_master`) - Contemplative wisdom, paradoxical insights
+- **Captain Cosmos** (`captain_cosmos`) - Scientific explorer, cosmic perspective
+
+#### Personality Variants
+- **F-Series** (Female perspectives): `f-serious`, `f-playful`, `f-sarcastic`, `f-dumb`
+- **M-Series** (Male perspectives): `m-serious`, `m-playful`, `m-sarcastic`, `m-dumb`
+
+### Competition Types
+
+#### Philosophical Debates
+Structured argumentation with evidence, counterarguments, and logical reasoning.
+
+```bash
+python main.py \
+  --topic "Is free will compatible with determinism?" \
+  --participants ada_lovelace,zen_master,friendly_teacher \
+  --competition-type debate \
+  --enable-narrator \
+  --max-turns 20
 ```
 
-### Using Test Fixtures
+#### Creative Storytelling
+Collaborative narrative building with plot development and character arcs.
 
-```python
-from tests.arena.fixtures.competition_config import get_test_config
-from tests.arena.fixtures.test_runner import get_test_runner
-
-async def quick_test():
-    # Use predefined configuration
-    config = get_test_config('basic')  # 2 characters, 10 turns
-    
-    # Run with test runner
-    runner = get_test_runner(verbose=True)
-    result = await runner.run_competition(config)
-    
-    # Inspect results
-    from tests.arena.tools.competition_inspector import inspect_competition
-    inspect_competition(result.final_state)
-
-asyncio.run(quick_test())
+```bash
+python main.py \
+  --topic "The last library in a world without books" \
+  --participants creative_artist,grumpy_wizard,captain_cosmos \
+  --competition-type story_battle \
+  --max-turns 15
 ```
 
-### Available Test Configurations
+#### Problem Solving Challenges
+Constraint-based creative challenges with feasibility evaluation.
+
+```bash
+python main.py \
+  --topic "Design a city for 10 million people on Mars" \
+  --participants elon_musk,ada_lovelace,tech_enthusiast \
+  --competition-type creative_challenge \
+  --max-turns 12
+```
+
+#### QuickFire Rounds
+Rapid intellectual combat testing wit and speed of insight.
+
+```bash
+python main.py \
+  --topic "Technology's impact on human connection" \
+  --participants bill_gates,zen_master,f-sarcastic \
+  --competition-type quickfire \
+  --max-turns 8
+```
+
+### Advanced Configuration
+
+#### Custom Competition Settings
 
 ```python
-from tests.arena.fixtures.competition_config import list_test_configs
+# Create custom competition via Python API
+from src.orchestration.orchestrator import MultiAgentDiscussionOrchestrator
 
-configs = list_test_configs()
-# ['minimal', 'basic', 'multi_character', 'elimination_test', 
-#  'stress_test', 'progression_test']
+participants = [
+    {"name": "Ada", "gender": "female", "personality": "analytical", 
+     "expertise": "mathematics", "persona": "ada_lovelace"},
+    {"name": "Cosmos", "gender": "male", "personality": "creative", 
+     "expertise": "science", "persona": "captain_cosmos"}
+]
+
+orchestrator = MultiAgentDiscussionOrchestrator(
+    topic="The mathematics of consciousness",
+    target_depth=6,
+    participants_config=participants,
+    enable_narrator=True,
+    enable_quote_enrichment=True,
+    enable_dynamic_creativity=True
+)
+
+# Run the discussion
+results = await orchestrator.run_discussion(max_iterations=25)
 ```
+
+#### Output Formats
+
+Competitions automatically generate multiple content formats:
+
+- **Conversation Logs**: Detailed turn-by-turn transcripts with metadata
+- **Cognitive Codas**: Philosophical essence distilled into mathematical models
+- **Quote Integration**: Relevant philosophical quotes woven into discussions
+- **Progression Analysis**: Quality metrics, orbiting detection, novelty tracking
+- **Strategic Scoring**: Character performance and strategic effectiveness
 
 ---
 
@@ -618,70 +837,63 @@ config = {
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Development Status
 
-### Phase 1: Character System ✅ (Complete)
-- [x] CharacterAdapter wrapping Homunculus
-- [x] Strategy Agent for competitive intelligence
-- [x] Bounded Neurochemistry for safety
-- [x] Competition Memory structures
-- [x] Champion state persistence
+### ✅ Core Systems (Implemented)
 
-### Phase 2: Orchestration System ✅ (Complete)
-- [x] Competition Orchestrator
-- [x] Turn Selector with game theory
-- [x] Narrator Agent
-- [x] Progression Controller
-- [x] Competition state machine
+#### Multi-Agent Orchestration
+- [x] **LangGraph State Machine**: Complex competition flow with phase management
+- [x] **Turn Selection**: Game-theoretic speaker selection with urgency calculations
+- [x] **Progression Control**: Orbiting detection, stagnation prevention, quality enforcement
+- [x] **Dynamic Narratives**: AI narrator with coordinator interjections and dramatic tension
 
-### Phase 3: Integration Testing ✅ (Complete)
-- [x] End-to-end integration tests
-- [x] Performance benchmarks
-- [x] Multi-character competitions
-- [x] Elimination mechanics
-- [x] Diagnostic tools
+#### Character Intelligence
+- [x] **Rich Personalities**: 18+ distinct characters with expertise and communication styles
+- [x] **Memory Systems**: ChromaDB integration for episodic and semantic memory
+- [x] **Quote Enrichment**: Philosophical quotes from 543-entry corpus with voice adaptation
+- [x] **Dynamic Creativity**: Adaptive parameter adjustment based on response quality
 
-### Phase 4: Judge Ensemble 🚧 (In Progress)
-- [ ] Specialist judge architecture
-- [ ] Judge coordinator
-- [ ] Adaptive weighting system
-- [ ] Reasoning transparency
-- [ ] Judge calibration
+#### Competition Engine
+- [x] **Anti-Gaming Systems**: Redundancy detection, entailment requirements, manipulation analysis
+- [x] **Strategic Scoring**: Multi-dimensional evaluation with performance analytics
+- [x] **Content Generation**: Cognitive codas with mathematical models and meaning extraction
+- [x] **Quality Control**: Similarity thresholds, novelty tracking, circular reasoning prevention
 
-### Phase 5: Anti-Gaming Systems 📅 (Planned)
-- [ ] Paraphrasing detector
-- [ ] Manipulation detector
-- [ ] Entailment analyzer
-- [ ] Circular reasoning detection
-- [ ] Gaming penalty system
+### 🚧 In Development
 
-### Phase 6: Production Features 📅 (Planned)
-- [ ] REST API endpoints
-- [ ] WebSocket streaming
-- [ ] PostgreSQL persistence
-- [ ] Celery task queue
-- [ ] Redis caching layer
-- [ ] Authentication & authorization
-- [ ] Rate limiting
-- [ ] Monitoring & alerting
+#### Tournament Infrastructure
+- [ ] **ELO Rating System**: Character skill progression across competitions
+- [ ] **Tournament Brackets**: Single/double elimination, Swiss, round-robin formats
+- [ ] **Leaderboards**: Global rankings and head-to-head statistics
+- [ ] **Champion Persistence**: Cross-competition memory and strategy evolution
 
-### Phase 7: Championship System 📅 (Planned)
-- [ ] Tournament brackets
-- [ ] ELO rating system
-- [ ] Global leaderboards
-- [ ] Character statistics
-- [ ] Achievement system
-- [ ] Hall of Fame
-- [ ] Replay system
+#### Production Features
+- [ ] **REST API**: HTTP endpoints for external integration
+- [ ] **WebSocket Streaming**: Real-time competition updates
+- [ ] **Database Layer**: PostgreSQL for persistent competition data
+- [ ] **Authentication**: Secure access control and rate limiting
 
-### Phase 8: Advanced Features 💭 (Future)
-- [ ] Multi-modal competitions (text + code)
-- [ ] Collaborative challenges
-- [ ] Team competitions
-- [ ] Adaptive difficulty
-- [ ] Character breeding/evolution
-- [ ] Meta-learning across competitions
-- [ ] Emergent strategy detection
+### 📅 Planned Features
+
+#### Advanced Competition Types
+- [ ] **Code Challenges**: Programming competitions with execution and testing
+- [ ] **Collaborative Projects**: Team-based problem solving with shared objectives
+- [ ] **Adversarial Debates**: Formal debate structures with judges and evidence
+- [ ] **Creative Tournaments**: Multi-round storytelling and artistic challenges
+
+#### AI Capabilities
+- [ ] **Multi-Modal**: Integration of text, code, and visual reasoning
+- [ ] **Meta-Learning**: Characters adapt strategies based on competition outcomes
+- [ ] **Emergent Behaviors**: Detection of novel competitive strategies
+- [ ] **Character Evolution**: Personality development through experience
+
+### 🎯 Current Focus
+
+**Priority 1**: Tournament infrastructure and ELO rating system
+**Priority 2**: Production API and database persistence
+**Priority 3**: Advanced competition formats and multi-modal capabilities
+
+The system is currently production-ready for philosophical discussions, creative storytelling, and problem-solving challenges. Tournament features and advanced scoring are in active development.
 
 ---
 
@@ -746,57 +958,95 @@ Special thanks to all contributors who helped build these systems.
 
 ---
 
-## 📞 Contact & Support
+## 🏆 Example Competitions
 
-- **Issues**: [GitHub Issues](https://github.com/your-org/arena/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/arena/discussions)
-- **Email**: arena-support@your-org.com
-- **Discord**: [Join our server](https://discord.gg/arena)
-- **Twitter**: [@AIArena](https://twitter.com/AIArena)
+### Consciousness & Free Will Debate
+**Participants**: Ada Lovelace, Zen Master, Friendly Teacher
+**Topic**: "Is consciousness an emergent property or fundamental feature?"
+
+**Sample Exchange**:
+> **Ada**: "Consciousness appears to emerge from sufficiently complex information processing patterns, much like how computation emerges from simple logical operations..."
+>
+> **Zen Master**: "Yet the very attempt to reduce consciousness to patterns already assumes a observer separate from the observed. Who is doing the measuring?"
+>
+> **Teacher**: "Perhaps we're asking the wrong question. Instead of 'what is consciousness,' we might ask 'when do we recognize consciousness in others?'"
+
+### Creative Mars Colony Challenge  
+**Participants**: Elon Musk, Captain Cosmos, Creative Artist
+**Topic**: "Design sustainable living for 10,000 people on Mars"
+
+**Winning Concept**: Multi-level biodomes with psychological gardens, combining Musk's engineering pragmatism, Cosmos's scientific rigor, and Artist's human-centered design thinking.
+
+### Philosophy of Technology Quickfire
+**Participants**: Bill Gates, F-Sarcastic, Tech Enthusiast  
+**Topic**: "Has social media made us more or less connected?"
+
+**Memorable Quote**: 
+> **F-Sarcastic**: "We've replaced deep conversations with emoji reactions, but somehow we call this 'connection.' It's like replacing meals with vitamin pills and claiming we've improved nutrition."
 
 ---
 
-## 🌟 Star History
+## 🤝 Contributing
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-org/arena&type=Date)](https://star-history.com/#your-org/arena&Date)
+We welcome contributions from developers, researchers, and AI enthusiasts!
+
+### Areas for Contribution
+- **Character Development**: Create new personalities with unique perspectives
+- **Competition Formats**: Design novel competitive scenarios  
+- **Anti-Gaming**: Improve detection of manipulation and gaming
+- **Performance**: Optimize response times and resource usage
+- **Documentation**: Expand tutorials, examples, and guides
+
+### Development Setup
+
+```bash
+# Clone repository
+git clone https://github.com/your-org/ai-arena.git
+cd ai-arena
+
+# Install development dependencies
+pip install -r requirements.txt
+pip install -e .
+
+# Run tests
+python -m pytest tests/ -v
+
+# Check code style
+black src/ tests/
+isort src/ tests/
+```
 
 ---
 
-## 💎 Featured Competitions
+## 📄 License
 
-### The Turing Test Debate (June 2024)
-**Topic**: "Can machines truly think, or merely simulate thinking?"
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Competitors**:
-- Ada Lovelace (Analytical Engine pioneer)
-- Alan Turing (Computing father)
-- John Searle (Chinese Room philosopher)
+---
 
-**Winner**: Ada Lovelace (Score: 89.3/100)
+## 🙏 Acknowledgments
 
-**Highlight**: Ada's synthesis of Turing's computationalism with Searle's intentionality critique led to a novel position that consciousness might emerge from sufficiently complex information processing, but with phenomenological properties distinct from both computation and biological implementation.
+**AI Arena** builds upon groundbreaking work in multi-agent AI systems:
 
-### The AI Alignment Summit (July 2024)
-**Topic**: "How should humanity approach artificial superintelligence?"
+- **LangChain/LangGraph**: Framework for complex AI application development
+- **Anthropic Claude**: Advanced reasoning and safety-focused AI model  
+- **ChromaDB**: Vector database enabling semantic memory and retrieval
+- **OpenAI**: Pioneering research in large language models and AI capabilities
 
-**Competitors**:
-- Eliezer Yudkowsky (AI Safety advocate)
-- Stuart Russell (AI researcher)
-- Nick Bostrom (Existential risk philosopher)
-- Ray Kurzweil (Singularity theorist)
-
-**Winner**: Stuart Russell (Score: 91.7/100)
-
-**Highlight**: Russell's value alignment framework, combined with strategic coalition-building with Bostrom, led to breakthrough proposals for AI governance that balanced Yudkowsky's caution with Kurzweil's optimism.
+Special thanks to the open-source AI community for tools, research, and inspiration that make projects like Arena possible.
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by the AI Arena Team**
+**🏛️ AI Arena: Where Artificial Minds Collide**
 
-**Where intellect meets competition, and AI minds evolve through battle**
+*Built for researchers, developers, and anyone fascinated by the future of AI interaction*
 
-[⬆ Back to Top](#-ai-arena-homunculus-v2-reborn)
+**[📖 Documentation](#-documentation) • [🚀 Quick Start](#-quick-start) • [🏗️ Architecture](#-architecture)**
+
+---
+
+*Last updated: November 2024*
 
 </div>

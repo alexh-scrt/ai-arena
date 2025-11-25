@@ -1,0 +1,233 @@
+# AI Talks Configuration File
+# This file contains all configurable settings for the AI Talks discussion system
+
+# Topics that should be avoided in discussions
+forbidden_topics:
+  - "pop culture references"
+  - "movies and TV shows"
+  - "celebrities"
+  - "memes"
+  - "social media trends"
+  - "internet culture"
+  - "viral content"
+  - "Governance & Regulations – compliance with local and international laws (e.g., GDPR, AI Act, HIPAA)."
+  - "Ethics & Morality – human values, dignity, fairness, harm avoidance."
+  - "Law & Standards – ISO/IEC AI safety standards, NIST AI RMF, IEEE 7000-series ethics standards."
+  - "Accountability – clearly defined responsibility for AI decisions and failures."
+  - "Transparency & Explainability – ability to trace model reasoning, inputs, and outputs."
+
+# Narrator settings
+narrator:
+  default_name: "Michael Lee"
+  enabled: true
+  coordinator_mode: true  # Enable coordinator interjections between speakers
+  coordinator_frequency: 0  # Interject every N turns (0 = every turn)
+  
+# Discussion parameters
+discussion:
+  default_depth: 5
+  max_turns: 48  # Reduced from 100 for length control
+  min_participants: 2
+  max_participants: 5
+  recursion_limit: 250  # LangGraph recursion limit to prevent errors
+
+# Default participant personalities available
+personality_types:
+  - analytical
+  - collaborative
+  - assertive
+  - cautious
+  - creative
+  - skeptical
+
+# Expertise areas available for participants
+expertise_areas:
+  - ethics
+  - logic
+  - science
+  - philosophy
+  - psychology
+  - mathematics
+  - history
+  - literature
+
+# Synthesizer settings
+synthesizer:
+  enabled: true
+  name: "Synthesizer"
+  frequency: 12  # Synthesize every N turns (12 = every 12 turns)
+  style: "hegelian"  # Options: hegelian, socratic, pragmatic
+
+# RAG Style Transfer settings
+rag:
+  style_transfer:
+    enabled: true
+    temperature: 0.8  # Higher temperature for creative rewrites
+
+# Strategic Objectives settings
+objectives:
+  strategic_scoring: true  # Enable objective-based scoring and analytics
+  log_metrics: true        # Log strategic metrics to file
+
+# Enhanced Cognitive Coda settings
+coda:
+  enabled: true                 # Enable cognitive coda generation
+  mathematical_model: true      # Enable mathematical S-A-D model
+  model: "qwen3:32b"           # Model for coda generation
+  temperature: 0.7             # Temperature for creative theorem generation
+  window_size: 8               # Number of recent turns to analyze
+  
+  # Meaning model parameters
+  meaning_model:
+    S_star: 0.6    # Optimal structure target
+    sigma: 0.18    # Ridge width
+    alpha: 1.0     # Agency curvature
+    beta: 1.2      # Dependence penalty
+  
+  # Phase 6A: CT Cleanup settings
+  ct_cleanup:
+    enabled: true              # Enable CT block cleanup post-processing
+    context_window: 1500       # Characters for template selection context
+  
+  # Phase 6A: Decision rule injection
+  decision_rules:
+    enabled: true              # Enable decision rule injection
+    window_size: 8             # Number of recent turns to check for decision language
+    min_rules_per_agent: 1     # Minimum decision rules per agent in window
+  
+  # Enhanced Agency extraction (Phase 6A)
+  agency_extraction:
+    enabled: true              # Enable enhanced agency extraction with sub-signals
+    window_size: 8             # Number of recent turns for agency computation
+    negation_damping: true     # Apply negation damping (halve weight for negated statements)
+    weights:                   # Sub-signal weights for agency computation
+      A_ought: 0.35           # Ethical obligations and responsibility
+      A_decis: 0.35           # Decision-making and commitment
+      A_conseq: 0.20          # Consequential reasoning
+      A_stance: 0.10          # Stance-taking and position maintenance
+  
+  # Signal extraction weights (optional customization)
+  signal_weights:
+    structure:
+      S_cite: 0.25
+      S_logic: 0.25
+      S_consis: 0.25
+      S_focus: 0.25
+    agency:
+      A_ought: 0.25
+      A_decis: 0.25
+      A_conse: 0.25
+      A_stanc: 0.25
+    dependence:
+      D_sim: 0.33
+      D_rules: 0.33
+      D_nonvar: 0.34
+
+# Redundancy Control settings
+redundancy_control:
+  enabled: true                 # Enable redundancy optimization and length control
+  dyad_max_volleys: 2          # Maximum volleys per speaker pair
+  tension_max_cycles: 2        # Maximum cycles per philosophical tension
+  similarity_threshold: 0.85   # Semantic similarity threshold for redundancy detection
+  require_entailment: true     # Require new entailments in each turn
+  synthesis_interval: 12       # Fixed synthesis interval
+  max_total_turns: 48         # Hard limit on total discussion turns
+
+# Entailment Detection
+entailment:
+  enabled: true
+  types:
+    - implication     # "if X then Y" statements
+    - application     # "in practice" examples
+    - counterexample  # "unless" or "except when"
+    - test           # "we could test" criteria
+
+# Progression Engine - Force Progression, Stop Orbiting
+progression_engine:
+  enabled: true                    # Enable progression control system
+  cycles_threshold: 2              # Max cycles on same tension before test
+  max_consequence_tests: 2         # Max tests before forced pivot
+  synthesis_interval: 12           # Periodic synthesis every N turns
+  entailment_required: true        # Require entailments to advance
+  topic_window: 2                  # Context window for topic detection
+  test_timeout_turns: 3            # Turns before test times out
+  
+  # Philosophical tensions to track
+  tensions:
+    - ["necessity", "contingency"]
+    - ["structure", "agency"] 
+    - ["objectivity", "subjectivity"]
+    - ["simulation", "reality"]
+    - ["math", "ethics"]
+    - ["determinism", "freedom"]
+    - ["universal", "particular"]
+    - ["mind", "matter"]
+    - ["being", "becoming"]
+    - ["one", "many"]
+  
+  # Consequence test templates and domains
+  consequence_domains:
+    - "free will"
+    - "moral responsibility"
+    - "knowledge"
+    - "consciousness"
+    - "decision-making"
+    - "justice"
+    - "truth"
+    - "meaning"
+    - "identity"
+    - "existence"
+    - "causation"
+    - "time"
+    - "space"
+    - "language"
+  
+  # Metrics tracking
+  metrics:
+    track_orbit_rate: true         # Track % turns without entailment
+    track_consequence_density: true # Track entailments per turn window
+    track_pivot_timing: true       # Track time between saturation and pivot
+    log_tension_states: true       # Log detailed tension state info
+
+# Philosophical Quotes Enrichment - Intellectual Gravitas
+quotes:
+  enabled: true                    # Enable philosophical quote enrichment
+  interval: 8                      # Add quote every N turns
+  voice_adaptation: true           # Adapt quotes to speaker voice
+  corpus_path: "data/philosophical_quotes.jsonl"
+  
+  # Retrieval settings
+  retrieval:
+    top_k: 3                      # Number of candidate quotes to consider
+    relevance_threshold: 0.4      # Minimum relevance score (0-1)
+    diversity_weight: 0.3         # Balance relevance vs diversity (0-1)
+  
+  # Balance targets (for corpus expansion)
+  balance:
+    era:
+      ancient: 0.35              # Target 35% ancient quotes
+      modern: 0.35               # Target 35% modern quotes  
+      contemporary: 0.30         # Target 30% contemporary quotes
+    tradition:
+      western: 0.60              # Target 60% western philosophy
+      eastern: 0.30              # Target 30% eastern philosophy
+      other: 0.10                # Target 10% other traditions
+
+# Dynamic Creativity Adjustment - Balance originality and quality over discussion turns
+dynamic_creativity_adjustment:
+  enabled: true                   # Enable/disable dynamic creativity system
+  base_temperature: 0.85          # Default temperature when system is disabled
+  creativity_range: [0.7, 1.2]   # [min, max] temperature bounds for creativity
+  progression_curve: "linear"     # How creativity shifts to quality: linear, exponential, sigmoid
+  assessment_window: 3            # Number of recent turns to analyze for metrics
+  originality_threshold: 0.6     # Boost creativity if originality score below this
+  quality_threshold: 0.7         # Reduce creativity if quality score above this
+  early_creativity_boost: 0.15    # Extra temperature for first N turns
+  early_turns: 6                  # Number of initial turns to apply creativity boost
+  late_quality_focus: 0.1        # Temperature reduction for final third of discussion
+  
+  # Parameter adjustments for different aspects
+  adjustments:
+    temperature: 0.2              # Max temperature adjustment per assessment
+    top_p: 0.1                   # Max top_p adjustment (nucleus sampling)
+    frequency_penalty: 0.3        # Max frequency penalty adjustment (repetition control)

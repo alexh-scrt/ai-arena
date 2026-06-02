@@ -1,0 +1,105 @@
+# Staircase Case — Jury Deliberation Panel
+# Six jurors deliberate the death of Kathleen Peterson
+
+panel_name: "The Staircase — Jury Deliberation"
+description: >
+  Six specialized jurors deliberate the case of State v. Michael Peterson.
+  Each juror has a unique cognitive architecture with truthful-by-construction
+  blind spots. The jury must weigh the evidence and reach a verdict:
+  Guilty of First-Degree Murder, Guilty of Voluntary Manslaughter,
+  or Not Guilty.
+
+  Evidence presented includes:
+  - 911 calls and timeline
+  - Autopsy findings (7 lacerations, thyroid cartilage fracture)
+  - Blood spatter analysis (contested — Duane Deaver testimony)
+  - Toxicology (BAC 0.07, Valium present)
+  - Prior similar death (Elizabeth Ratliff, 1985)
+  - Missing blow poke / fireplace poker
+  - Michael Peterson's bisexuality and secret affairs
+  - Owl theory (feathers found in Kathleen's hair)
+  - SBI misconduct (Deaver fired, false testimony)
+  - $1.5M life insurance policy
+
+tags: [jury, criminal_law, deliberation, staircase, true_crime]
+difficulty: advanced
+
+participants:
+  - name: "LOGICUS"
+    gender: "male"
+    personality: "analytical"
+    expertise: "forensic_evidence"
+    persona: "logicus"
+
+  - name: "JUSTITIA"
+    gender: "female"
+    personality: "analytical"
+    expertise: "criminal_law"
+    persona: "justitia"
+
+  - name: "ANCHORA"
+    gender: "female"
+    personality: "skeptical"
+    expertise: "details_timeline"
+    persona: "anchora"
+
+  - name: "SENSUS"
+    gender: "female"
+    personality: "creative"
+    expertise: "human_factors"
+    persona: "sensus"
+
+  - name: "CUSTODIA"
+    gender: "male"
+    personality: "skeptical"
+    expertise: "investigative_analysis"
+    persona: "custodia"
+
+  - name: "SYNTHESIS"
+    gender: "non_binary"
+    personality: "analytical"
+    expertise: "group_facilitation"
+    persona: "synthesis"
+
+topics:
+  - "State v. Michael Peterson — The Staircase Death"
+  - "Evidence: 911 Call Timeline"
+  - "Forensic Evidence: Blood Spatter and Autopsy"
+  - "Prior Acts: Elizabeth Ratliff's Death (1985)"
+  - "Motive: Insurance Policy and Bisexuality"
+  - "Alternative Theories: Owl Attack, Accidental Fall"
+
+focus_areas:
+  - timeline_consistency
+  - forensic_evidence
+  - witness_credibility
+  - alternative_explanations
+  - legal_standards
+  - reasonable_doubt
+
+min_participants: 6
+max_participants: 6
+
+orchestrator:
+  phases:
+    - intro
+    - evidence_review
+    - deliberation_round_1
+    - deliberation_round_2
+    - deliberation_round_3
+    - vote
+    - verdict
+    - termination
+
+scoring:
+  novelty: 0.15
+  synthesis: 0.20
+  epistemic_humility: 0.20
+  rigor: 0.20
+  clarity: 0.25
+
+requirements:
+  architecture_disclosure: true
+  blind_spot_referencing: true
+  cross_contamination_monitoring: true
+  verdict_tracking: true

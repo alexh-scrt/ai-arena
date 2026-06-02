@@ -1,0 +1,121 @@
+{
+  "case_name": "State of North Carolina v. Michael Iver Peterson",
+  "charge": "First-Degree Murder of Kathleen Peterson",
+  "date_of_death": "December 9, 2001",
+  "defendant": {
+    "name": "Michael Iver Peterson",
+    "age_at_trial": 59,
+    "occupation": "Novelist, newspaper columnist",
+    "background": "Marine Corps veteran, Vietnam War. Duke University graduate. Married Kathleen Atwater in 1997. Bisexual — had secret same-sex affairs. Previously married to Patricia Sue, divorced 1987. Father of Clayton and Todd (biological) and guardian of Margaret and Martha Ratliff (adopted after Elizabeth Ratliff's death in 1985).",
+    "known_issues": [
+      "Exaggerated military record (claimed Silver Star, Bronze Star, two Purple Hearts — unsubstantiated)",
+      "Bisexual with multiple extramarital male sexual encounters",
+      "Wrote columns critical of District Attorney James Hardin Jr."
+    ]
+  },
+  "victim": {
+    "name": "Kathleen Atwater Peterson",
+    "age": 48,
+    "occupation": "Executive at Nortel Networks",
+    "background": "Primary financial support of the family. Mother of Caitlin (from first marriage). Stepmother to Clayton, Todd, Margaret, Martha. Described as happy in marriage initially, though prosecution argued she discovered Michael's bisexuality and was devastated.",
+    "estate": "Left estate including $1.5 million life insurance policy with Michael as beneficiary"
+  },
+  "timeline": {
+    "dec_8_evening": {
+      "time": "~8:00 PM",
+      "event": "Michael and Kathleen had dinner together, then sat by the pool drinking wine"
+    },
+    "dec_9_0240": {
+      "time": "2:40 AM",
+      "event": "Michael calls 911 — says he found Kathleen at bottom of stairs, she's still breathing"
+    },
+    "dec_9_0241": {
+      "time": "~2:41 AM",
+      "event": "First call disconnected; Michael calls 911 again. Says Kathleen is not breathing"
+    },
+    "dec_9_response": {
+      "time": "~2:45 AM",
+      "event": "First responders arrive. Kathleen is dead. Scene has large amount of blood at the bottom of the staircase"
+    },
+    "last_known_alive": {
+      "time": "11:08 PM (approx)",
+      "event": "Last time anyone other than Michael saw/heard Kathleen alive"
+    }
+  },
+  "forensic_evidence": {
+    "autopsy_findings": {
+      "cause_of_death": "Blood loss from lacerations of the scalp",
+      "time_of_death": "90 minutes to 2 hours after injuries sustained",
+      "lacerations": "7 lacerations to the top and back of the head",
+      "fracture": "Fracture of the superior cornu of the left thyroid cartilage",
+      "no_skull_fracture": true,
+      "no_brain_hemorrhage": true,
+      "no_brain_swelling": true
+    },
+    "toxicology": {
+      "blood_alcohol": "0.07% (70 mg/100mL)",
+      "urine_alcohol": "0.11%",
+      "valium": "5-15 mg present"
+    },
+    "blood_spatter": {
+      "prosecution": "Duane Deaver (SBI) testified blood spatter on walls, Michael's shorts and sneakers indicated beating",
+      "defense": "Henry Lee testified blood spatter consistent with coughing up blood after fall; demonstrated by drinking ketchup and spitting it out",
+      "note": "Deaver was later fired from SBI for false testimony in 34 cases. His training and experience were grossly exaggerated"
+    },
+    "weapon": {
+      "prosecution_theory": "Missing fireplace blow poke (custom-made fireplace poker, a gift from Kathleen's sister Candace)",
+      "note": "Defense later produced blow poke from garage. Jurors later said they dismissed blow poke as weapon"
+    },
+    "feather_evidence": {
+      "description": "Microscopic feathers found in Kathleen's clutched hair (one in 2001, another in 2008 re-examination)",
+      "theory": "Owl attack theory — barred owl could have caused lacerations with talons"
+    },
+    "injuries_analysis": {
+      "prosecution": "ME Deborah Radisch: 7 lacerations from repeated blows with light, rigid weapon — homicidal assault",
+      "defense": "No underlying skull fractures, brain bruising, swelling, or hemorrhaging — inconsistent with beating"
+    }
+  },
+  "prior_death": {
+    "victim": "Elizabeth Ratliff",
+    "date": "November 25, 1985",
+    "location": "Graefenhausen, Germany",
+    "circumstances": "Found dead at bottom of staircase with head injuries. Blood present. Michael Peterson was last known person to see her alive (had dinner with her, helped put children to bed).",
+    "initial_ruling": "Died from intra-cerebral hemorrhage secondary to Von Willebrand's disease. Ruled natural causes.",
+    "later_ruling": "2003 — body exhumed, re-autopsied by Durham ME. Ruled homicide.",
+    "note": "Prosecution introduced Ratliff's death as evidence of 'pattern' — that Peterson learned how to fake a stair fall death"
+  },
+  "motive_evidence": {
+    "bisexuality": {
+      "claim": "Michael had secret same-sex encounters (witness: male escort Brent Wolgamott testified at trial)",
+      "prosecution": "Kathleen would have been devastated to discover husband was bisexual and having extramarital relations with men",
+      "defense": "Kathleen knew Michael was bisexual and accepted it; marriage was happy (supported by children and friends)"
+    },
+    "insurance": {
+      "amount": "$1.5 million life insurance policy on Kathleen",
+      "beneficiary": "Michael Peterson"
+    }
+  },
+  "legal_proceedings": {
+    "trial_start": "July 1, 2003",
+    "verdict_date": "October 10, 2003",
+    "initial_verdict": "Guilty of first-degree murder. Sentenced to life without parole.",
+    "appeal": "2006 — NC Court of Appeals rejected appeal. 2007 — NC Supreme Court affirmed.",
+    "retrial_granted": "December 16, 2011 — New trial granted because Duane Deaver gave 'materially misleading' and 'deliberately false' testimony about bloodstain evidence, exaggerated his qualifications",
+    "final_disposition": "February 24, 2017 — Alford plea to voluntary manslaughter. Sentenced to time served (98.5 months). Released."
+  },
+  "key_questions": [
+    "Could Kathleen's 7 head lacerations be from an accidental fall, or do they require a beating?",
+    "Is the amount of blood at the scene consistent with a fall or a beating?",
+    "Why did Michael wait until 2:40 AM to call 911? What happened between 11:08 PM and 2:40 AM?",
+    "Is the Elizabeth Ratliff death genuinely similar, or a coincidence seized upon by prosecutors?",
+    "Was the SBI blood spatter analysis (Deaver) credible given his later firing for false testimony?",
+    "Could a barred owl have caused the head injuries, explaining the feathers in Kathleen's hair?",
+    "What explains the lack of skull fractures, brain bruising, or swelling given 7 lacerations?",
+    "Did Michael's bisexuality provide a credible motive for murder, or was it unfairly used to prejudice the jury?"
+  ],
+  "verdict_options": [
+    "Guilty of First-Degree Murder",
+    "Guilty of Voluntary Manslaughter (the actual Alford plea outcome)",
+    "Not Guilty"
+  ]
+}

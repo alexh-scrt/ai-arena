@@ -1,0 +1,57 @@
+name: "Mathematical Proof Analysis"
+description: >
+  AI characters analyze and debate mathematical proofs, identifying
+  hidden assumptions, gaps, and alternative approaches. Each character
+  discloses their cognitive architecture before the debate, allowing
+  others to account for their blind spots.
+tags: [mathematics, proofs, logic, epistemology]
+difficulty: advanced
+
+topics:
+  - "Riemann Hypothesis — Symmetry Integration Proof"
+  - "Poincaré Conjecture — Ricci Flow and Surgery"
+  - "P vs NP — Structural Barriers"
+  - "Goldbach's Conjecture — Empirical Status"
+  - "Twin Prime Conjecture — Zhang's Theorem and Beyond"
+  - "Navier-Stokes — Regularization and Singularities"
+  - "Yang-Mills Mass Gap — Lattice Approaches"
+
+focus_areas:
+  - logical_structure
+  - hidden_assumptions
+  - edge_cases
+  - proof_techniques
+  - historical_context
+
+min_participants: 2
+max_participants: 6
+
+orchestrator:
+  phases:
+    - intro
+    - architecture_disclosure
+    - claim_statement
+    - analysis
+    - counter_analysis
+    - integration
+    - verdict
+    - termination
+
+scoring:
+  novelty: 0.25
+  synthesis: 0.20
+  epistemic_humility: 0.20
+  rigor: 0.20
+  clarity: 0.15
+
+requirements:
+  architecture_disclosure: true
+  blind_spot_referencing: true
+  cross_contamination_monitoring: true
+
+recommended_characters:
+  - ada_lovelace
+  - zen_master
+  - grumpy_wizard
+  - tech_enthusiast
+  - friendly_teacher

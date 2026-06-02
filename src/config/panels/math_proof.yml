@@ -4,7 +4,13 @@ description: >
   hidden assumptions, gaps, and alternative approaches. Each character
   discloses their cognitive architecture before the debate, allowing
   others to account for their blind spots.
-tags: [mathematics, proofs, logic, epistemology]
+
+  Features a specialized proof-checking mode with the five AXIOMA
+  proof organs: NOUS (formal analysis), EIDOLON (structural tension),
+  MNEME (historical patterns), ANIMA (intuitive insight), and
+  PNEUMA (integration & synthesis). Each organ has truthful-by-
+  construction blind spots derived from suppressed internal agents.
+tags: [mathematics, proofs, logic, epistemology, proof_organs]
 difficulty: advanced
 
 topics:
@@ -22,6 +28,7 @@ focus_areas:
   - edge_cases
   - proof_techniques
   - historical_context
+  - intuitive_insight
 
 min_participants: 2
 max_participants: 6
@@ -50,8 +57,16 @@ requirements:
   cross_contamination_monitoring: true
 
 recommended_characters:
+  # Historical / archetypal characters
   - ada_lovelace
   - zen_master
   - grumpy_wizard
   - tech_enthusiast
   - friendly_teacher
+
+  # AXIOMA proof organs (full proof-checking panel)
+  - nous
+  - eidolon
+  - mneme
+  - anima
+  - pneuma

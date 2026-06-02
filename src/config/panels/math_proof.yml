@@ -1,4 +1,7 @@
-name: "Mathematical Proof Analysis"
+# Mathematical Proof Analysis Panel
+# Five AXIOMA proof organs debate and verify mathematical proofs
+
+panel_name: "Mathematical Proof Analysis"
 description: >
   AI characters analyze and debate mathematical proofs, identifying
   hidden assumptions, gaps, and alternative approaches. Each character
@@ -10,8 +13,40 @@ description: >
   MNEME (historical patterns), ANIMA (intuitive insight), and
   PNEUMA (integration & synthesis). Each organ has truthful-by-
   construction blind spots derived from suppressed internal agents.
+
 tags: [mathematics, proofs, logic, epistemology, proof_organs]
 difficulty: advanced
+
+participants:
+  - name: "NOUS"
+    gender: "male"
+    personality: "analytical"
+    expertise: "mathematical_logic"
+    persona: "nous"
+
+  - name: "EIDOLON"
+    gender: "non_binary"
+    personality: "skeptical"
+    expertise: "structural_analysis"
+    persona: "eidolon"
+
+  - name: "MNEME"
+    gender: "female"
+    personality: "analytical"
+    expertise: "history_of_mathematics"
+    persona: "mneme"
+
+  - name: "ANIMA"
+    gender: "female"
+    personality: "creative"
+    expertise: "mathematical_aesthetics"
+    persona: "anima"
+
+  - name: "PNEUMA"
+    gender: "non_binary"
+    personality: "analytical"
+    expertise: "integrative_epistemology"
+    persona: "pneuma"
 
 topics:
   - "Riemann Hypothesis — Symmetry Integration Proof"
@@ -55,18 +90,3 @@ requirements:
   architecture_disclosure: true
   blind_spot_referencing: true
   cross_contamination_monitoring: true
-
-recommended_characters:
-  # Historical / archetypal characters
-  - ada_lovelace
-  - zen_master
-  - grumpy_wizard
-  - tech_enthusiast
-  - friendly_teacher
-
-  # AXIOMA proof organs (full proof-checking panel)
-  - nous
-  - eidolon
-  - mneme
-  - anima
-  - pneuma
